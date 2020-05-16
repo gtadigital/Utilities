@@ -2,9 +2,36 @@
 
 This repo contains scripts and tools developed by GTA digital to optimize the ETL (Extract, Transform and Load) processes and data modelling.
 
-### JSON2CSV 
+* [JSON2CSV](https://github.com/gtadigital/Utilities/tree/master/JSON2CSV "JSON2CSV"): Transform JSON dump from EasyDB into CSV
 
-Transform JSON dump from EasyDB into CSV
+### Prerequisites
+
+* Python3
+* Pandas
+
+### Optional
+
+#### Virtual Environment
+
+```
+python3 -m venv /path/to/new/virtual/environment
+source bin/activate
+```
+
+### Installing
+
+#### Clone the git repo
+
+```
+git clone https://github.com/gtadigital/Utilities.git
+```
+
+#### Install the dependencies with pip
+
+```
+pip3 install pandas
+
+```
 
 ## Credits:
 
