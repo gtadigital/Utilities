@@ -1,6 +1,24 @@
 # JSON2CSV
 
-This script allowa to transform the JSON file dump from EasyDB records into a CSV file 
+This script allows to transform the JSON file dump from EasyDB records into a CSV file
+
+## Getting Started
+
+### Prerequisites
+
+* Python3
+
+
+## Workflow
+
+- Create a Virtual Environment
+```
+python3 -m venv /path/to/new/virtual/environment
+source bin/activate
+```
+- Dump JSON data from your source platform  
+- Specify the JSON dict form the output file in```for item in json_array```
+- Specify you CSV structure in ```csv_columns = ['col1','col2','col3','col4']```
 
 
 ## Credits:
