@@ -1,6 +1,10 @@
 # Utilities repo
 
-This repo contains scripts and tools developed by GTA digital to optimize the ETL (Extract, Transform and Load) processes and data modelling 
+This repo contains scripts and tools developed by GTA digital to optimize the ETL (Extract, Transform and Load) processes and data modelling.
+
+### JSON2CSV 
+
+Transform JSON dump from EasyDB into CSV
 
 ## Credits:
 
